@@ -1,0 +1,101 @@
+body {
+    position: relative;
+    margin-left:15px;
+    background-color:#eee;
+}
+#circleBar-web-text,
+#circleBar-mobile-text{
+    font-family: 'FranklinGothic-Book' "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-size:16px;
+    fill:#000;
+}
+#circleBar-web-labels tspan,
+#circleBar-mobile-labels tspan {
+    font-family: 'FranklinGothic-Book' "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-size:10px;
+    fill:#6D6E71;
+}
+
+#circleBar-web-values tspan,
+#circleBar-mobile-values tspan {
+    font-family: 'FranklinGothic-Book' "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-size: 9px;
+    font-weight:bold;
+    fill:#000;
+}
+#circleBar-web-values tspan {
+    fill: #7D3A4D;
+}
+#circleBar-mobile-values tspan {
+    fill: #684E88;
+}
+.division{
+height:1px;
+background-color: #999999;
+margin-top: 30px;
+margin-bottom:30px;
+}
+.titulos{
+top: 200px;
+left:30px;
+position: absolute;
+z-index: 1000;
+}
+.tituloWhite{
+
+font-size: 34px;
+color: white;
+}
+
+.foot {
+background-color:#000000;
+text-align: center;
+color:#cccccc;
+height:75px;
+font-family: 'Titillium Web', sans-serif;
+}
+.opacidad{
+ opacity: 0.8;
+
+}
+.desplaza { position: relative; }
+
+.contenedorsvg {
+width: 100%;
+height: 0;
+padding-top: 48%;
+position: relative;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+.chartcenter {
+padding-left:25%;
+}
+
+}
+
+@media (max-width: 768px) { 
+
+.nav-tabs {
+width:100px
+}
+}
+.backres
+{
+margin-left: 85%;
+margin-top: 40%
+}
+
+@media (max-width: 430px) { 
+.backres
+{
+margin-left: 78%;
+margin-top: 45%
+}
+}
+
+
+
